@@ -14,19 +14,104 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="navbar">
-      <div class="nav-logo border"><div class="logo"></div></div>
-      <div class="address border">
-        <p class="firstadd">Deliver to</p>
-        <div class="add_icon">
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
-            <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"/>
-            <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
-          </svg>
-          <p class="secondadd">India</p>
+    <header>
+      <div class="navbar">
+        <!-- box 1 -->
+        <div class="nav-logo border"><div class="logo"></div></div>
+        <div class="address border">
+          <p class="firstadd">Deliver to</p>
+          <!-- box 2 -->
+          <div class="add_icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-geo-alt"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"
+              />
+              <path
+                d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"
+              />
+            </svg>
+            <p class="secondadd">India</p>
+          </div>
+        </div>
+
+        <!-- box 3 -->
+        <div class="nav-search">
+          <select class="search-select">
+            <option value="All">All</option>
+          </select>
+          <input type="text" placeholder="Search Amazon" class="search-input" />
+          <div class="nav-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-search"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"
+              />
+            </svg>
+          </div>
+        </div>
+          <!-- box 4 -->
+        <div class="lang border">
+          <div class="lang-flag"></div>
+          <div class="lang-alph">EN</div>
+          <div class="dd">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="12"
+              height="8"
+              fill="currentColor"
+              class="bi bi-caret-down-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"
+              />
+            </svg>
+          </div>
+        </div>
+
+        <!-- box 5 -->
+        <div class="nav-signin border">
+          <p><span>Hello, sign in</span></p>
+          <p class="nav-second">Account & Lists</p>
+        </div>
+        <div class="nav-return border">
+          <p><span>Returns</span></p>
+          <p class="nav-second">& Orders</p>
+        </div>
+
+        <!-- box 6 -->
+        <div class="nav-cart">
+          <div class="cart-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-cart"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"
+              />
+            </svg>
+          </div>
+
+          Cart
         </div>
       </div>
-      
-    </div>
+    </header>
   </body>
 </html>
