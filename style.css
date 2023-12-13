@@ -5,7 +5,7 @@
 }
 
 .navbar {
-  height: 60px;
+  height: 3.75rem;
   background-color: #0f1111;
   color: white;
   display: flex;
@@ -16,8 +16,8 @@
 /* box 1 */
 
 .nav-logo {
-  height: 50px;
-  width: 100px;
+  height: 3.125rem;
+  width: 6.25rem;
 }
 
 .logo {
