@@ -240,3 +240,70 @@ svg {
 .box-content p {
   color: #007185;
 }
+
+/* footer */
+
+.foot-1 {
+  height: 40px;
+  background-color: #37475a;
+  color: white;
+  font-size: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.foot-2 {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #232f3e;
+  height: 270px;
+  color: #cddbdc;
+  font-size: 0.875rem;
+  padding-top: 30px;
+}
+.foot-2 p {
+  margin-top: 10px;
+}
+
+.foot-2 a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.foot-3 {
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #232f3e;
+  border-top: 0.5px solid #87908f;
+}
+
+.logo-foot3 {
+  background-image: url("images\\amazon_logo.png");
+  background-size: cover;
+  width: 100px;
+  height: 60px;
+}
+
+.foot-4{
+  height: 60px;
+  background-color: #131A22;
+  font-size: 0.7rem;
+  color: white;
+  
+  text-align: center;
+}
+.mess-1{
+  
+  padding-top: 15px;
+ 
+}
+
+.mess-2{
+  padding-top: 5px;
+  
+}
